@@ -56,6 +56,8 @@ GEM
       rails (>= 3, < 5)
     database_cleaner (1.4.0)
     diff-lcs (1.2.5)
+    email_validator (1.5.0)
+      activemodel
     erubis (2.7.0)
     execjs (2.2.2)
     gherkin (2.12.2)
@@ -128,6 +130,8 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    shoulda-matchers (2.7.0)
+      activesupport (>= 3.0.0)
     spork (1.0.0rc4)
     spring (1.2.0)
     sprockets (2.12.3)
@@ -160,6 +164,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   cucumber-rails
   database_cleaner
+  email_validator
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.1.8)
@@ -167,6 +172,7 @@ DEPENDENCIES
   rspec-rails
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
+  shoulda-matchers
   spork (~> 1.0rc)
   spring
   sqlite3

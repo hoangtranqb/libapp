@@ -37,7 +37,7 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+gem "email_validator"
 group :development, :test do
   gem 'rspec-rails'
   gem 'spork', '~> 1.0rc'  
@@ -47,4 +47,5 @@ group :test do
   gem 'cucumber-rails',:require => false
   gem 'database_cleaner'
   gem 'rspec-activemodel-mocks'
+  gem 'shoulda-matchers'
 end
